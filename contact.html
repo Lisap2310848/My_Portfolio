@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+
+<body class="contact-body">
+
+<section id="contact">
+  <h1 class="contact-title">Contactez-moi</h1>
+  
+  <form id="contactForm" class="contact-card" action="/contact" method="POST">
+
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" autocomplete="name" required>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" autocomplete="email" required>
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit" class="contact-btn">Envoyer</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
