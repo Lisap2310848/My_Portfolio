@@ -161,6 +161,11 @@ body {
 .btn-card:hover {
   background: #364fc7;
 }
+/*.projet-image:hover
+{
+
+  transform: scale(1.4); /* zoom interne */ 
+
 
 /* FOOTER */
 footer {
